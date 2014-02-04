@@ -16,6 +16,7 @@ public class DinnerModel {
 	public class implementIDinnerModel implements IDinnerModel {
 		private int numberOfGuests;
 		private Dish type;
+		private Set<Dish> dishes;
 		
 		public int getNumberOfGuests() {
 			// TODO Auto-generated method stub
@@ -37,7 +38,7 @@ public class DinnerModel {
 		
 		public Set<Dish> getFullMenu() {
 			// TODO Auto-generated method stub
-			return this; 
+			return this.dishes; 
 			/**
 			 * this.what????? What is Set<Dish>?
 			 */
