@@ -17,6 +17,8 @@ public class DinnerModel {
 		private int numberOfGuests;
 		private Dish type;
 		private Set<Dish> dishes;
+		private Set<Ingredient> ingredients;
+		private float price;
 		
 		public int getNumberOfGuests() {
 			// TODO Auto-generated method stub
@@ -40,21 +42,30 @@ public class DinnerModel {
 			// TODO Auto-generated method stub
 			return this.dishes; 
 			/**
-			 * this.what????? What is Set<Dish>?
+			 * Calle:
+			 * this.what????? What is Set<Dish>? private Set<Dish> dishes???
 			 */
 		}
 
 		
 		public Set<Ingredient> getAllIngredients() {
 			// TODO Auto-generated method stub
-			return null;
-		}
+			return this.ingredients;
+		}/**
+		 * Calle:
+		 * Can you actually say "ingredient" here? Created privately above. 
+		 * Idea taken from Dish.java
+		 */
 
 		
 		public float getTotalMenuPrice() {
 			// TODO Auto-generated method stub
-			return 0;
-		}
+			return this.price;
+		}/**
+		 * Calle:
+		 * Not sure if "price" is correct here. Created privately above.
+		 * Might be ingredients*numberOfGuests as is said in IDinnerPlanner
+		 */
 		
 	}
 	
