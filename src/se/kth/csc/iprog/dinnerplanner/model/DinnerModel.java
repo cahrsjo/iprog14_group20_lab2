@@ -13,7 +13,49 @@ public class DinnerModel {
 	 * When you do this you will have all the needed fields and methods
 	 * for the dinner planner (number of guests, selected dishes, etc.). 
 	 */
-	
+	public class implementIDinnerModel implements IDinnerModel {
+		private int numberOfGuests;
+		private Dish type;
+		
+		public int getNumberOfGuests() {
+			// TODO Auto-generated method stub
+			return this.numberOfGuests;
+		}
+
+		
+		public void setNumberOfGuests(int numberOfGuests) {
+			// TODO Auto-generated method stub
+			this.numberOfGuests = numberOfGuests;
+		}
+
+		
+		public Dish getSelectedDish(int type) {
+			// TODO Auto-generated method stub
+			return this.type;
+		}
+
+		
+		public Set<Dish> getFullMenu() {
+			// TODO Auto-generated method stub
+			return this; 
+			/**
+			 * this.what????? What is Set<Dish>?
+			 */
+		}
+
+		
+		public Set<Ingredient> getAllIngredients() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		
+		public float getTotalMenuPrice() {
+			// TODO Auto-generated method stub
+			return 0;
+		}
+		
+	}
 	
 	/**
 	 * The constructor of the overall model. Set the default values here
