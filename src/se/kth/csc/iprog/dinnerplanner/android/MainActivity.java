@@ -1,5 +1,6 @@
 package se.kth.csc.iprog.dinnerplanner.android;
 
+import se.kth.csc.iprog.dinnerplanner.android.view.ExampleView;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -28,7 +29,7 @@ public class MainActivity extends Activity {
 			}
 		});
     	// Creating the view class instance
-    	/**ExampleView mainView = new ExampleView(findViewById(R.id.this_is_example_view_id));**/
+    	ExampleView mainView = new ExampleView(findViewById(R.id.this_is_example_view_id));
 
 
     }
