@@ -28,7 +28,7 @@
         android:id="@+id/example_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/button1"
+        android:layout_above="@+id/button2"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="100dp"
         android:text="@string/test" />
