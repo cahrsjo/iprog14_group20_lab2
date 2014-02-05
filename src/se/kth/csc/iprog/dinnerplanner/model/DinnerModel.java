@@ -19,24 +19,22 @@ public class DinnerModel {
 		private Set<Dish> dishes;
 		private Set<Ingredient> ingredients;
 		private float price;
+		private float totalPrice;
 		
 		public int getNumberOfGuests() {
 			// TODO Auto-generated method stub
 			return this.numberOfGuests;
 		}
 
-		
 		public void setNumberOfGuests(int numberOfGuests) {
 			// TODO Auto-generated method stub
 			this.numberOfGuests = numberOfGuests;
 		}
-
 		
 		public Dish getSelectedDish(int type) {
 			// TODO Auto-generated method stub
 			return this.type;
 		}
-
 		
 		public Set<Dish> getFullMenu() {
 			// TODO Auto-generated method stub
@@ -46,7 +44,6 @@ public class DinnerModel {
 			 * this.what????? What is Set<Dish>? private Set<Dish> dishes???
 			 */
 		}
-
 		
 		public Set<Ingredient> getAllIngredients() {
 			// TODO Auto-generated method stub
@@ -57,10 +54,12 @@ public class DinnerModel {
 		 * Idea taken from Dish.java
 		 */
 
-		
 		public float getTotalMenuPrice() {
 			// TODO Auto-generated method stub
-			return this.price;
+			totalPrice = this.price*this.numberOfGuests;
+			return totalPrice;
+			
+			/**return this.price;**/
 		}/**
 		 * Calle:
 		 * Not sure if "price" is correct here. Created privately above.
