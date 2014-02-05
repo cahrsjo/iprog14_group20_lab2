@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/annamovin/Desktop/Sparade filer till nya datorn/KTH/4/interaktionsprogrammering/iprog14_group20_lab2/app/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/annamovin/Desktop/Sparade filer till nya datorn/KTH/4/interaktionsprogrammering/iprog14_group20_lab2/app/src/debug/assets" />
+    </dataSet>
+
+</merger>

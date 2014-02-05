@@ -30,8 +30,6 @@ public class MainActivity extends Activity {
     	// Creating the view class instance
     	/**ExampleView mainView = new ExampleView(findViewById(R.id.this_is_example_view_id));**/
 
-        //Anna says hi! :)
-
     }
 
 }
