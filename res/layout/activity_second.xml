@@ -24,6 +24,18 @@
     android:gravity="center"
     android:id="@+id/this_is_example_view_id" >
 
+<<<<<<< HEAD
+=======
+    <TextView
+        android:id="@+id/example_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="@string/test" />
+
+>>>>>>> 3a1918b5421f1ca85037dab951cb9c0c3ccb484c
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
