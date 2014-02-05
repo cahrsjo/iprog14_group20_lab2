@@ -27,6 +27,10 @@
             android:name="se.kth.csc.iprog.dinnerplanner.android.SecondActivity"
             android:label="@string/title_activity_second" >
         </activity>
+        <activity
+            android:name="se.kth.csc.iprog.dinnerplanner.android.ThirdActivity"
+            android:label="@string/title_activity_third" >
+        </activity>
     </application>
 
 </manifest>
