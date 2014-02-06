@@ -22,18 +22,22 @@ public class DinnerModel {
 		private float totalPrice;
 		
 		public int getNumberOfGuests() {
+			// TODO Auto-generated method stub
 			return this.numberOfGuests;
 		}
 
 		public void setNumberOfGuests(int numberOfGuests) {
+			// TODO Auto-generated method stub
 			this.numberOfGuests = numberOfGuests;
 		}
 		
 		public Dish getSelectedDish(int type) {
+			// TODO Auto-generated method stub
 			return this.type;
 		}
 		
 		public Set<Dish> getFullMenu() {
+			// TODO Auto-generated method stub
 			return this.dishes; 
 			/**
 			 * Calle:
@@ -42,6 +46,7 @@ public class DinnerModel {
 		}
 		
 		public Set<Ingredient> getAllIngredients() {
+			// TODO Auto-generated method stub
 			return this.ingredients;
 		}/**
 		 * Calle:
@@ -50,6 +55,7 @@ public class DinnerModel {
 		 */
 
 		public float getTotalMenuPrice() {
+			// TODO Auto-generated method stub
 			totalPrice = this.price*this.numberOfGuests;
 			return totalPrice;
 			

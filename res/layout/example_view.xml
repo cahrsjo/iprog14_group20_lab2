@@ -6,21 +6,9 @@
     android:id="@+id/this_is_example_view_id" >
     
         <TextView
-        android:id="@+id/example_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="38dp"
-        android:text="Welcome to DinnerPlanner!" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="152dp"
-        android:text="Start" />
+            android:id="@+id/example_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:text="@string/hello_world"/>
 
 </RelativeLayout>

@@ -15,5 +15,4 @@ public class DinnerPlannerApplication extends Application {
 		this.model = model;
 	}
 
-
 }
