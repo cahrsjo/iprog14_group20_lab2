@@ -14,7 +14,7 @@ public class ExampleView {
 		this.view = view;
 
 		TextView example = (TextView) view.findViewById(R.id.example_text);
-		example.setText("Hello world, osv");
+		example.setText("Hello world asdfsga s");
 
 		// Setup the rest of the view layout
 	}
